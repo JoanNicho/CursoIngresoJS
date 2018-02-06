@@ -5,7 +5,7 @@
 function Mostar()
 {
 	var dato;
-dato=prompt("dato");
-getElementById(dato);
+dato=prompt("Joan");
+document.getElementById("elNombre").value=dato;
 }
 
