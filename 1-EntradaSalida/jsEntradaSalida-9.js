@@ -5,5 +5,9 @@ en el cuadro de texto "RESULTADO".*/
 function MostrarAumento()
 {
 
+
+
+
+
 	
 }
