@@ -5,19 +5,10 @@ var precio2;
 var precio3;
 var suma;
 var promedio;
-precio1=document.getElementById("precioUno").value;
-precio2=document.getElementById("precioDos").value;
-precio3=document.getElementById("precioTres").value;
-suma=precio1+precio2+precio3;
+precio1=document.getElementById("precioUno");
+precio2=document.getElementById("precioDos");
+precio3=document.getElementById("precioTres");
+suma=parseInt(precio1.value)+parseInt(precio2.value)+parseInt(precio3.value);
 promedio=suma/3;
-alert(promedio);
-
-
-
-
-
-
-
-
-
+alert("la suma es "+suma+ " y el promedio es "+promedio);
 }
