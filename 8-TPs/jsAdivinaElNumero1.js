@@ -12,8 +12,11 @@ var contadorIntentos;
 
 function comenzar()
 {
+numeroSecreto=Math.floor(Math.random()*(101-1)+1);
+consolo.log(numerosecreto)
 	//Genero el número RANDOM entre 1 y 100
-	 
+	 contador=0;
+   contador=contador+1;
 		//alert(numeroSecreto );
 	
 
