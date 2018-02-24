@@ -1,8 +1,13 @@
 function Mostrar()
 {
-var repe=prompt("")
-for(var i=0;;i++){
-    
+var repe=prompt("");
+var contPares=0;
+for(var i=repe;i>0;i--){
+if(i%2==0)
+{
+    console.log(i);
+    contPares++;
+}
 }
 
 

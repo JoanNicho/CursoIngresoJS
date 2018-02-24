@@ -1,6 +1,6 @@
 function Mostrar()
 {
-var num
+var num;
 for(;num!=9;)
 num=prompt("");
 num=parseInt(num);
