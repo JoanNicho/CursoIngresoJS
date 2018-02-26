@@ -17,14 +17,14 @@ var legajo=document.getElementById("Legajo").value;
 var nacionalidad=document.getElementById("Nacionalidad").value;
 
 edad=prompt("ingrese edad entre 18 y 90 años");
-while(edad<18 || edad>90 || isNaN(edad))
+while(edad<18 || edad>90 || isNaN(edad) || null==edad)
 {
 edad=prompt("ingrese edad entre 18 y 90 años");
 }
 document.getElementById("Edad").value=edad;
 
 sexo=prompt("ingrese sexo F o M");
-while(sexo!="F" && sexo!="M" && edad!=null)
+while(sexo!="F" && sexo!="M" && sexo!=null)
 {
 sexo=prompt("ingrese sexo F o M");
 }
@@ -43,15 +43,15 @@ switch(ecivil){
 }
 
 sueldo=prompt("ingrese sueldo no menor a 8000");
-while(sueldo<8000 || isNaN(sueldo)){
+while(sueldo<8000 || isNaN(sueldo)|| sueldo==null){
 sueldo=prompt("ingrese sueldo no menora 8000");
 sueldo=parseInt(sueldo);
 }
 document.getElementById("Sueldo").value=sueldo
 
-legajo=prompt("ingrese el numero de legajos(sin ceros a la izquierda");
-while(legajo<1000){
-    legajo=prompt("ingrese el numero de legajos(sin ceros a la izquierda");
+legajo=prompt("ingrese el numero de legajos(sin ceros a la izquierda)");
+while(legajo<1000 || legajo==null){
+    legajo=prompt("ingrese el numero de legajos(sin ceros a la izquierda)");
 }
 document.getElementById("Legajo").value=legajo;
 
