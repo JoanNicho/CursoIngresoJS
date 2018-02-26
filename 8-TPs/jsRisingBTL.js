@@ -9,5 +9,20 @@ F.	Nacionalidad, “A” para argentinos, “E” para extranjeros, “N” para
  */
 function ComenzarIngreso () 
 {
- 
+var edad=document.getElementById("Edad").value;
+var sexo=document.getElementById("Sexo").value;
+var ecivil=document.getElementById("EstadoCivil").value;
+var sueldo=document.getElementById("Sueldo").value;
+var legajo=document.getElementById("Legajo").value;
+var nacionalidad=document.getElementById("Nacionalidad").value;
+
+edad=prompt("ingrese edad");
+while(edad<=18 || edad>=90)
+{
+edad=prompt("ingrese edad");
+}
+document.getElementById("Edad").value=edad;
+
+sexo=prompt("ingrese sexo");
+while(sexo=f && m)
 }
