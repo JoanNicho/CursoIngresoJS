@@ -17,7 +17,7 @@ var legajo=document.getElementById("Legajo").value;
 var nacionalidad=document.getElementById("Nacionalidad").value;
 
 edad=prompt("ingrese edad");
-while(edad<=18 || edad>=90 || isNaN(edad))
+while(edad<18 || edad>90 || isNaN(edad))
 {
 edad=prompt("ingrese edad");
 }
