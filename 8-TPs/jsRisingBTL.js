@@ -24,7 +24,7 @@ edad=prompt("ingrese edad entre 18 y 90 años");
 document.getElementById("Edad").value=edad;
 
 sexo=prompt("ingrese sexo F o M");
-while(sexo!="F" && sexo!="M")
+while(sexo!="F" && sexo!="M" && edad!=null)
 {
 sexo=prompt("ingrese sexo F o M");
 }
@@ -43,13 +43,27 @@ switch(ecivil){
 }
 
 sueldo=prompt("ingrese sueldo no menor a 8000");
-while(sueldo<8000){
-sueldo=prompt("ingrese sueldo");
+while(sueldo<8000 || isNaN(sueldo)){
+sueldo=prompt("ingrese sueldo no menora 8000");
+sueldo=parseInt(sueldo);
 }
 document.getElementById("Sueldo").value=sueldo
 
+legajo=prompt("ingrese el numero de legajos(sin ceros a la izquierda");
+while(legajo<1000){
+    legajo=prompt("ingrese el numero de legajos(sin ceros a la izquierda");
+}
+document.getElementById("Legajo").value=legajo;
 
-
+nacionalidad=prompt("Ingrese “A” para argentinos, “E” para extranjeros, “N” para nacionalizados");
+switch(nacionalidad){
+    case "A": document.getElementById("Nacionalidad").value="Argentinos"
+    break;
+    case "E": document.getElementById("Nacionalidad").value="Extrajeros"
+    break;
+    case "N": document.getElementById("Nacionalidad").value="Nacionalizados"
+    break;
+}
 
 
 
