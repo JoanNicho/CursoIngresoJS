@@ -32,11 +32,11 @@ document.getElementById("Sexo").value=sexo;
 
 ecivil=prompt("ingrese 1-para soltero, 2-para casados, 3-para divorciados y 4-para viudos")
 switch(ecivil){
-    case "1":document.getElementById("EstadoCivil").value="Soletro"
+    case "1":document.getElementById("EstadoCivil").value="Soltero"
     break;
     case "2":document.getElementById("EstadoCivil").value="Casado"
     break;
-    case "3":document.getElementById("EstadoCivil").value="Divociados"
+    case "3":document.getElementById("EstadoCivil").value="Divorciados"
     break;
     case "4":document.getElementById("EstadoCivil").value="Viudos"
     break;
