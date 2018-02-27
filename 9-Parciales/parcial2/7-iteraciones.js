@@ -1,7 +1,9 @@
 //Debemos lograr mostrar un mensaje al presionar el botón  'MOSTRAR'.
 function Mostrar()
 {
-	alert("Funciona 7-iteraciones");
+var acum=0;
+var cont=0;
+var contv=0;
 	
 }
 
