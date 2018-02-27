@@ -3,6 +3,8 @@ function Mostrar()
 {
 var	num1=prompt("Ingrese el primer número");
 var num2=prompt("Ingrese el segundo número");
+num1=parseInt(num1);
+num2=parseInt(num2);
 var resultado
 if(num1===num2){
 resultado=parseInt(num1)*parseInt(num2);
