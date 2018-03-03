@@ -43,14 +43,14 @@ switch(ecivil){
 }
 
 sueldo=prompt("ingrese sueldo no menor a 8000");
-while(sueldo<8000 || isNaN(sueldo)|| sueldo==null){
+while((sueldo>0 && sueldo<8000) || isNaN(sueldo)){
 sueldo=prompt("ingrese sueldo no menora 8000");
 sueldo=parseInt(sueldo);
 }
 document.getElementById("Sueldo").value=sueldo
 
 legajo=prompt("ingrese el numero de legajos(sin ceros a la izquierda)");
-while(legajo<1000 || legajo==null){
+while(legajo>0 && legajo<1000){
     legajo=prompt("ingrese el numero de legajos(sin ceros a la izquierda)");
 }
 document.getElementById("Legajo").value=legajo;
